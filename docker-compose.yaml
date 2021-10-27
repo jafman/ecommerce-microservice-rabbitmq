@@ -1,0 +1,41 @@
+version: "3.9"
+services:
+  customer:
+    container_name: customer-service
+    restart: always
+    build: ./customer-service
+    command: node index.js
+    ports:
+      - "8090:8090"
+  
+  order:
+    container_name: order-service
+    restart: always
+    build: ./order-service
+    command: node index.js
+    ports:
+      - "8091:8091"
+
+  payment:
+    container_name: payment-service
+    restart: always
+    build: ./payment-service
+    command: node index.js
+    ports:
+      - "9090:9090"
+
+  product:
+    container_name: product-service
+    restart: always
+    build: ./product-service
+    command: node index.js
+    ports:
+      - "9080:9080"
+
+  worker:
+    container_name: worker
+    restart: always
+    build: ./worker
+    command: node index.js
+    ports:
+      - "9091:9091"
