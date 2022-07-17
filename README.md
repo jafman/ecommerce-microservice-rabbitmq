@@ -8,4 +8,6 @@
 
 ## High Level Architectural Diagram
 
-![image](https://drive.google.com/file/d/1BipppXKEpG16nBM9hl8wWR-FAvCy7uI5/view)
+![Architecture Diagram](https://github.com/jafman/ecommerce-microservice-rabbitmq/blob/main/Ecommerce-Microservices.png?raw=true)
+
+
