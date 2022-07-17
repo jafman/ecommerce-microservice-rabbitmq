@@ -10,4 +10,8 @@
 
 ![Architecture Diagram](https://github.com/jafman/ecommerce-microservice-rabbitmq/blob/main/Ecommerce-Microservices.png?raw=true)
 
+## RUN APP
 
+```
+  docker-compose up --build
+```
